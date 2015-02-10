@@ -1,16 +1,29 @@
+/* main.css */
+
+/* all */
+
 /* Navbar */
 .navbar-collapse {
     font-size: 18px;
+}
+
+/* Content */
+.content {
+    margin-top: 50px;
 }
 
 /* Footer */
 footer {
     margin-top: 25px;
 }
+.icon {
+    padding-right: 10px;
+}
 
 .disclaimer {
     font-size: 8px;
 }
+
 
 #logo img{
     height: 50px;
@@ -19,4 +32,14 @@ footer {
 
 #myCarousel {
     margin-top: 51px
+}
+
+/* tablets */
+@media (min-width: 768px) {
+
+}
+
+/* desktops */
+@media (min-width: 992px) {
+
 }

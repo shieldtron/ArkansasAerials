@@ -4,12 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Layout</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--font-awesome-->
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <!-- Main -->
     <link href="css/main.css" rel="stylesheet">
 
@@ -22,8 +20,8 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -48,18 +46,22 @@
         </div><!-- /.container -->
     </nav> <!-- /navbar -->
 
-    <!-- dont copy this -->
-    <div class="container-fluid">
-        <h1 class="text-center">This is the layout page</h1>
-    </div>
+    <!-- content goes here -->
+    <div class="content">
+        <div class="container">
+            <h1 class="text-center">This is the layout page</h1>
+        </div>
+    </div> <!-- /content -->
 
-    <!-- Footer -->
-    <div class="container-fluid">
+    <!-- footer -->
+    <div class="container">
         <footer>
             <p class="text-center">
-                <i class="fa fa-facebook-square fa-5x"></i>
-                <i class="fa fa-youtube-square fa-5x"></i>
-                <i class="fa fa-vimeo-square  fa-5x"></i>
+                <img class="icon" src="images/icons/facebook.png" alt="facebook" />
+                <img class="icon" src="images/icons/youtube.png" alt="youtube" />
+                <img class="icon" src="images/icons/vimeo.png" alt="vimeo" />
+                <img class="icon" src="images/icons/hireuavpro.png" alt="hireuavpro" />
+                <img class="icon" src="images/icons/productionhub.png" alt="productionhub" />
             </p>
             <p class="text-center disclaimer">* Due to pending FAA regulations, aerial image acquisition is provide at no cost.  Our clientele commissions us for ground video production and editing needs, we bill for these traditional ground & editing services.  Should the client choose to have us fly, we will collect images and video from the air as well with no additional charge (max AGL is 400ft).  All footage is processed off site for the best possible quality and end delivery needs.   .53 cents per mile is added for locations out side Little Rock and North Little Rock.</p>
         </footer>
