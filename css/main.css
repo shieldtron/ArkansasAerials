@@ -11,3 +11,12 @@ footer {
 .disclaimer {
     font-size: 8px;
 }
+
+#logo img{
+    height: 50px;
+    margin-left: -400px;
+}
+
+#myCarousel {
+    margin-top: 51px
+}
