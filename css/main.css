@@ -1,7 +1,9 @@
 /* main.css */
 
 /* all */
-
+body {
+    font-family: 'Raleway', sans-serif;
+}
 /* Navbar */
 .navbar-collapse {
     font-size: 18px;
@@ -14,16 +16,15 @@
 
 /* Footer */
 footer {
-    margin-top: 25px;
+    margin-top: 50px;
 }
 .icon {
     padding-right: 10px;
 }
 
 .disclaimer {
-    font-size: 8px;
+    font-size: 10px;
 }
-
 
 #logo img{
     height: 50px;
