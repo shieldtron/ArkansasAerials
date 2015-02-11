@@ -35,9 +35,25 @@ footer {
     margin-top: 51px
 }
 
-/* tablets */
-@media (min-width: 768px) {
+nav{
+  -webkit-backface-visibility: hidden;
+}
 
+.AAlogo {
+   margin-bottom: 150px;
+    margin-right: -100px;
+
+}
+.carouselCaption {
+    margin-left: -100px;
+    text-align: left;
+}
+
+/* tablets */
+@media (max-width: 768px) {
+ .showcase {
+     padding-top: 50px;
+ }
 }
 
 /* desktops */
