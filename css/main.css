@@ -39,24 +39,27 @@ nav{
   -webkit-backface-visibility: hidden;
 }
 
-.AAlogo {
-   margin-bottom: 150px;
-    margin-right: -100px;
-
-}
-.carouselCaption {
-    margin-left: -100px;
+.showcase {
+     padding-top: 50px;
+ }
+.carousel-caption{
+    font-size: 20px;
+    padding-bottom: 10%;
     text-align: left;
 }
 
-/* tablets */
-@media (max-width: 768px) {
- .showcase {
-     padding-top: 50px;
- }
-}
 
+/* tablets */
+@media (min-width: 768px) {
+
+.showcase {
+     padding-top: 0px;
+
+
+}
 /* desktops */
 @media (min-width: 992px) {
-
+    
+     
+  
 }
