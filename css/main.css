@@ -4,6 +4,7 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
 /* Navbar */
 .navbar-collapse {
     font-size: 18px;
@@ -18,6 +19,7 @@ body {
 footer {
     margin-top: 50px;
 }
+
 .icon {
     padding-right: 10px;
 }
@@ -42,24 +44,22 @@ nav{
 .showcase {
      padding-top: 50px;
  }
+
 .carousel-caption{
     font-size: 20px;
     padding-bottom: 10%;
     text-align: left;
 }
 
-
 /* tablets */
 @media (min-width: 768px) {
 
-.showcase {
-     padding-top: 0px;
-
+    .showcase {
+        padding-top: 0px;
+    }
 
 }
 /* desktops */
 @media (min-width: 992px) {
     
-     
-  
 }
