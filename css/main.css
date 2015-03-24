@@ -3,6 +3,11 @@
 /* all */
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.number {
+    font-family: sans-serif;
 }
 
 /* Navbar */
@@ -21,7 +26,9 @@ footer {
 }
 
 .icon {
-    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .disclaimer {
@@ -51,8 +58,15 @@ nav{
     text-align: left;
 }
 
+.infomation {
+    margin-top: 20px;
+}
+
 /* tablets */
 @media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
 
     .showcase {
         padding-top: 0px;
@@ -61,5 +75,23 @@ nav{
 }
 /* desktops */
 @media (min-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+
+    .featurette {
+        margin-bottom: 75px;
+    }
+
+    .featurette-heading-1 {
+        margin-top: 40px;
+    }
+
+    .featurette-heading-2 {
+        margin-top: 10px;
+    }
     
+    .featurette-heading-3 {
+        margin-top: 40px;
+    }
 }
