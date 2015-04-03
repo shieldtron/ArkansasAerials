@@ -22,7 +22,7 @@ body {
 
 /* Footer */
 footer {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .icon {
@@ -33,6 +33,7 @@ footer {
 
 .disclaimer {
     font-size: 10px;
+    margin-top: 25px;
 }
 
 #logo img{
@@ -87,7 +88,6 @@ nav{
 	.article_video {
 		margin-bottom: 35px;
 	}
-
 }
 /* desktops */
 @media (min-width: 992px) {
