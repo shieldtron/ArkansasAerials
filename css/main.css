@@ -62,6 +62,14 @@ nav{
     margin-top: 20px;
 }
 
+.article_text {
+	margin-bottom: 25px;
+}
+
+.article_video {
+	margin-bottom: 25px;
+}
+
 /* tablets */
 @media (min-width: 768px) {
     body {
@@ -71,6 +79,14 @@ nav{
     .showcase {
         padding-top: 0px;
     }
+	
+	.article_text {
+		margin-bottom: 35px;
+	}
+
+	.article_video {
+		margin-bottom: 35px;
+	}
 
 }
 /* desktops */
@@ -94,4 +110,12 @@ nav{
     .featurette-heading-3 {
         margin-top: 40px;
     }
+	
+	.article_text {
+		margin-bottom: 50px;
+	}
+
+	.article_video {
+		margin-bottom: 50px;
+	}
 }
