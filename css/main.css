@@ -1,6 +1,6 @@
 /* main.css */
 
-/* all */
+/* Extra small devices phones/all  */
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -22,7 +22,7 @@ body {
 
 /* Footer */
 footer {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .icon {
@@ -33,6 +33,7 @@ footer {
 
 .disclaimer {
     font-size: 10px;
+    margin-top: 25px;
 }
 
 #logo img{
@@ -70,10 +71,26 @@ nav{
 	margin-bottom: 25px;
 }
 
-/* tablets */
+#video-gallery-button {
+    width: 250px;
+}
+
+#image-gallery-button {
+    width: 250px;
+}
+
+.featurette {
+        margin-bottom: 25px;
+    }
+
+/* Small devices Tablets */
 @media (min-width: 768px) {
     body {
         font-size: 16px;
+    }
+
+    .featurette {
+        margin-bottom: 50px;
     }
 
     .showcase {
@@ -87,9 +104,8 @@ nav{
 	.article_video {
 		margin-bottom: 35px;
 	}
-
 }
-/* desktops */
+/* Medium devices Desktops */
 @media (min-width: 992px) {
     body {
         font-size: 16px;
@@ -104,11 +120,50 @@ nav{
     }
 
     .featurette-heading-2 {
-        margin-top: 10px;
+        margin-top: 0px;
     }
     
     .featurette-heading-3 {
         margin-top: 40px;
+    }
+	
+	.article_text {
+		margin-bottom: 50px;
+	}
+
+	.article_video {
+		margin-bottom: 50px;
+	}
+
+    .featurette-img-2 {
+        margin-top: 30px;
+    }
+}
+
+/* Large devices Desktops */
+@media (min-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    .featurette {
+        margin-bottom: 100px;
+    }
+
+    .featurette-heading-1 {
+        margin-top: 50px;
+    }
+
+    .featurette-heading-2 {
+        margin-top: 10px;
+    }
+    
+    .featurette-heading-3 {
+        margin-top: 50px;
+    }
+
+    .featurette-img-2 {
+        margin-top: 0px;
     }
 	
 	.article_text {

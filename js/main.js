@@ -5,6 +5,12 @@
 $(function () {
     'use strict';
 
+    // Image Gallery on xs
+    $('#image-gallery-button').on('click', function (event) {
+        event.preventDefault();
+        blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
+    });
+
     // Initialize the Gallery as video carousel:
     blueimp.Gallery([
         {
