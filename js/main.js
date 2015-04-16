@@ -52,7 +52,8 @@ $(function () {
     ], {
         container: '#blueimp-video-carousel',
         carousel: true,
-        youTubeClickToPlay: false
+        youTubeClickToPlay: false,
+        transitionSpeed: 800
     });
 
 });

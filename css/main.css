@@ -2,8 +2,8 @@
 
 /* Extra small devices phones/all  */
 body {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 .number {
@@ -81,10 +81,7 @@ nav{
 
 .featurette {
         margin-bottom: 25px;
-    }
-.txt_center{
-        text-align: center;
-    }
+
 /* Small devices Tablets */
 @media (min-width: 768px) {
     body {
