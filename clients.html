@@ -4,6 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="fb:app_id" content="890054174389407" />
+    <meta property="og:url" content="http://arkansasaerials.com/capstone/clients.html" />
+    <meta property="og:title" content="Arkansas Aerials - Clients" />
+    <meta property="og:description" content="Arkansas Aerials provides HD aerial video and photography from Little Rock Arkansas" />
+    <meta property="og:image" content="http://arkansasaerials.com/capstone/images/aa_facebook.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Arkansas Aerials" />
+
     <title>Arkansas Aerials - Clients</title>
 
     <!-- Fonts -->
@@ -23,14 +31,23 @@
 </head>
 <body>
 <!-- facebook SDK -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1570711716522064";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '890054174389407',
+            xfbml: true,
+            version: 'v2.3'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!-- navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -89,10 +106,13 @@
         </div> <!-- /jumbotron -->
         <!-- main text goes here-->
         <div class="container">
-            <img class="img-responsive" src="images/clients.JPG" alt="clients" />
-            <h2 class="text-center">How did we do? Please leave a comment below</h2>
-            <div id="fb_comments" class="container col-md-12 hidden-xs">
-                <div class="fb-comments" data-href="http://arkansasaerials.com/capstone/clients.html" data-numposts="3" data-colorscheme="dark" ></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/clients/client_01.jpg" alt="clients" />
+                </div>
+                <div class="col-md-6">
+                    <div class="fb-comments" data-href="http://arkansasaerials.com/capstone/clients.html" data-width="100%" data-numposts="4" data-colorscheme="light"></div>
+                </div>
             </div>
          </div> <!-- / main text container -->
     </div> <!-- /content -->
