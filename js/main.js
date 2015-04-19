@@ -11,7 +11,7 @@ $(function () {
         blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
     });
 
-    // Initialize the Gallery as video carousel:
+    // Initialize the Gallery as video carousel and get vidoes:
     blueimp.Gallery([
         {
             title: 'Arkansas Aerials Spring',

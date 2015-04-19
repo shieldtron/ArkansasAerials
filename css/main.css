@@ -109,9 +109,7 @@ nav{
 	.article_video {
 		margin-bottom: 35px;
 	}
-    #fb_comments {
-        margin-left: 8%;
-    }
+
 }
 /* Medium devices Desktops */
 @media (min-width: 992px) {
@@ -145,9 +143,6 @@ nav{
 
     .featurette-img-2 {
         margin-top: 30px;
-    }
-    #fb_comments {
-        margin-left: 23%;
     }
 }
 
@@ -184,7 +179,4 @@ nav{
 	.article_video {
 		margin-bottom: 50px;
 	}
-    #fb_comments {
-        margin-left: 26%;
-    }
 }
