@@ -36,29 +36,10 @@ footer {
     margin-top: 25px;
 }
 
-#logo img{
-    height: 50px;
-    margin-left: -400px;
-}
-
-#myCarousel {
-    margin-top: 51px
-}
-
-nav{
-  -webkit-backface-visibility: hidden;
-}
 
 .showcase {
-     padding-top: 0px;
+     padding-top: 10px;
  }
-
-.carousel-caption   {
-    text-align: left;
-    top: 25%;
-    font-size: 20px;
-    text-shadow: 0px 0px 8px rgba(150, 150, 150, 1);
-}
 
 .infomation {
     margin-top: 20px;
@@ -109,6 +90,9 @@ nav{
 	.article_video {
 		margin-bottom: 35px;
 	}
+	.aaLogo {
+		margin-top: 20px;
+	}
 
 }
 /* Medium devices Desktops */
@@ -144,6 +128,9 @@ nav{
     .featurette-img-2 {
         margin-top: 30px;
     }
+	.aaLogo {
+		margin-top: 20px;
+	}
 }
 
 /* Large devices Desktops */
@@ -178,5 +165,9 @@ nav{
 
 	.article_video {
 		margin-bottom: 50px;
+	}
+	
+	.aaLogo {
+		margin-top: 20px;
 	}
 }
